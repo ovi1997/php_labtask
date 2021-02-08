@@ -1,9 +1,11 @@
 <?php
-$word = "mina,mithu,raju";
+$name = "mina";
 
- if(strpos($mystring, $word) !== false){
-    echo "hello!";
-} else{
-    echo "you are not recognized!";
+ if($name=="raju" || $name=="mina" || $name="mithu")
+ {
+    echo "hello";
+} 
+else{
+    echo "you are not recognized";
 }
 ?>
