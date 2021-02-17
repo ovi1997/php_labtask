@@ -1,19 +1,4 @@
-<html>
 
-<body>
-    <h1>Form is submitted by shakil</h1>
-    <?php
-    echo "username : " . $_POST["uname"] . "<br>";
-    echo "password : " . $_POST["pass"] . "<br>";
-    echo "Gender : " . $_POST["gender"] . "<br>";
-    echo "profession : " . $_POST["profession"] . "<br>";
-
-    ?>
-</body>
-
-</html>
-
-*/
 <?php
 	$uname="";
 	$err_uname="";
@@ -185,3 +170,4 @@
 		</form>
 	</body>
 </html>
+
